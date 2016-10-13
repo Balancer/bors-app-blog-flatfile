@@ -25,7 +25,7 @@
 		"balancer/bors-core": "*",
 		"symfony/yaml": "*",
 		"bors/composer-plugin": "*",
-		"bower-asset/stackedit": "*"
+		"bower-asset/simplemde": "*"
 	},
 
 	"autoload": {
