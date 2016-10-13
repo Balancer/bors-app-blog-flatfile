@@ -12,7 +12,7 @@ class Main extends \B2\Page
 	function items()
 	{
 		$files = glob($this->data_dir().'/*.md');
-		sort($files);
+		rsort($files);
 		$items = [];
 		foreach($files as $file)
 		{

@@ -17,17 +17,22 @@
 {foreach $this->items() as $item}
 		<h2>{$item->titled_link()}</h2>
 
-		<p class="lead">by <a href="#">{$item->get('author')}</a></p>
+		<p class="lead">by <a href="#">{$item->get('Author')}</a></p>
 		<p><span class="glyphicon glyphicon-time"></span> Posted on {$item->ctime()}</p>
 		<hr/>
+{*
 		<img class="img-responsive" src="http://placehold.it/900x300" alt="">
 		<hr>
-		<p>{$item->body()}</p>
-		<a class="btn btn-primary" href="{$item->url()}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+*}
 
+		<p>{$item->body()}</p>
+{*
+		<a class="btn btn-primary" href="{$item->url()}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+*}
 		<hr/>
 {/foreach}
 
+{*
 		<!-- Pager -->
 		<ul class="pager">
 			<li class="previous">
@@ -37,6 +42,7 @@
 				<a href="#">Newer &rarr;</a>
 			</li>
 		</ul>
+*}
 
 	</div>
 
@@ -93,8 +99,19 @@
 
 		<!-- Side Widget Well -->
 		<div class="well">
-			<h4>Side Widget Well</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+			<h4>ToDo</h4>
+			<p>
+				<ul>
+					<li>Обработка изображений</li>
+					<li>Длинные записи под кат</li>
+					<li>Интеграция с Infonesy</li>
+					<li>НавМеню шаблона Bootstrap3</i>
+					<li>Категории = теги</li>
+					<li>Автономное разворачивание приложение в подкаталог (добавить index.php и статические пути относительно подкаталога в этом случае)</li>
+					<li>Заголовок блога брать из main.md в blog</li>
+					<li>Поиск</li>
+				</ul>
+			</p>
 		</div>
 
 	</div>
