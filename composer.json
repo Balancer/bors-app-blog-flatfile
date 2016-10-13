@@ -23,9 +23,10 @@
 
 	"require": {
 		"balancer/bors-core": "*",
-		"symfony/yaml": "*",
+		"bors/app-data": "*",
 		"bors/composer-plugin": "*",
-		"bower-asset/simplemde": "*"
+		"bower-asset/simplemde": "*",
+		"symfony/yaml": "*"
 	},
 
 	"autoload": {
