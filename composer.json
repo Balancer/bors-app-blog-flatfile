@@ -24,7 +24,8 @@
 	"require": {
 		"balancer/bors-core": "*",
 		"symfony/yaml": "*",
-		"bors/composer-plugin": "*"
+		"bors/composer-plugin": "*",
+		"bower-asset/stackedit": "*"
 	},
 
 	"autoload": {
