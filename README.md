@@ -7,3 +7,4 @@
 - https://speckyboy.com/markdown-tools-editors/
 - http://www.developersfeed.com/awesome-javascript-wysiwyg-markdown-editors/
 - http://toppersworld.com/top-15-markdown-editors-for-text-syntax-formatting/
+- http://bootstrap.slugs.in/
