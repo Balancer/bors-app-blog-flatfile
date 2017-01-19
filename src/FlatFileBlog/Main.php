@@ -16,7 +16,7 @@ class Main extends \B2\Page
 		$items = [];
 		foreach($files as $file)
 		{
-			$items[] = \bors_page_fs_markdown::load($file);
+			$items[] = Item::load($file);
 			//TODO: time from git?
 		}
 
