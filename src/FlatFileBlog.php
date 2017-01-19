@@ -13,6 +13,6 @@ class FlatFileBlog extends App
 
 	function fast_routes($r)
 	{
-		$r->addRoute('GET', $this->base_url().'/{id:[\w\-]+}/?', FlatFileBlog\View::class);
+		$r->addRoute('GET', $this->base_url().'/{id:[\w\-]+}/', FlatFileBlog\View::class);
 	}
 }
